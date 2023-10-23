@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;   
+}
+
+
+.container{
+    
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+
+   
+    height: 100vh;
+    align-items: center;
+}
+
+
+.box{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.header {
+    padding: 10px; 
+    text-align: center;
+}
+
+
+.form{ 
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+}
+.form input{
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.btn-login {
+    margin-top: 5px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.btn-login button{
+    width: 50vh;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+ 
+
+label{
+    padding:5px 0px;
+}
